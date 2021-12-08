@@ -1,0 +1,128 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+    <title>Опрос</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RGDVD9KZF8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RGDVD9KZF8');
+</script>
+</head>
+<body>
+<nav id="navigation">
+<a href="knigarnya-about_us.html"><img id="navlogo" src="icon.png" width="30px"></a>
+<ul id="navbar">
+<li><a  id="choosed" href="knigarnya-about_us.html">Главная</a></li>
+<li><a href="knigarnya-books.html">Каталог</a></li>
+<li><a href="#">Жанры</a>
+	<ul>
+	<li><a href="comedy.html">Комедия</a></li>
+	<li><a href="roman.html">Роман</a></li>
+	<li><a id="choosed" href="fantasy.html">Фентези</a></li>
+	</ul>
+</li>
+<li><a href="log.html">Войти</a></li>
+</ul>
+</nav>
+
+
+
+<img id="toppicture" src="logo.png" width="100%" alt="ВЫ НА САЙТЕ КНИГАРНЯ.UA">
+
+
+
+<main id="opros">
+	<div>
+         <h1>Опрос</h1>
+
+
+            <h3 id="question">Как вы отноитесь к жанру комедия?</h3>
+
+            <form id="form">
+               <input type="radio" name="q1" value="very_bad" checked><label>Затрудняюсь ответить</label>
+               <input type="radio" name="q1" value="very_bad"><label>Очень плохо</label>
+               <input type="radio" name="q1" value="bad"><label>Плохо</label>
+               <input type="radio" name="q1" value="fine"><label>Нормально</label>
+               <input type="radio" name="q1" value="good"><label>Хорошо</label>
+               <input type="radio" name="q1" value="very_good"><label>Обожаю</label>
+            </form>
+
+            <button id="next" value="1" onclick="nextquestion()">Продолжить</button>
+
+
+         <div id="result">
+            <h3>Результаты исследований в вашем городе:</h3>
+            <table>
+               <tr>
+                  <td>Вопрос</td>
+                  <td>Самый распространённый ответ</td>
+               </tr>
+               <tr>
+                  <td>Как вы отноитесь к жанру комедия?</td>
+                  <td>Обожаю</td>
+               </tr>
+               <tr>
+                  <td>Как вы отноитесь к жанру роман?</td>
+                  <td>Нормально</td>
+               </tr>
+               <tr>
+                  <td>Как вы отноитесь к жанру фэнтези?</td>
+                  <td>Хорошо</td>
+               </tr>
+               <tr>
+                  <td>Что насчет запретной литературы?</td>
+                  <td>Очень плохо</td>
+               </tr>
+            </table>
+            <h3>Результаты исследований по всей стране:</h3>
+            <table>
+               <tr>
+                  <td>Вопрос</td>
+                  <td>Самый распространённый ответ</td>
+               </tr>
+               <tr>
+                  <td>Как вы отноитесь к жанру комедия?</td>
+                  <td>Хорошо</td>
+               </tr>
+               <tr>
+                  <td>Как вы отноитесь к жанру роман?</td>
+                  <td>Нормально</td>
+               </tr>
+               <tr>
+                  <td>Как вы отноитесь к жанру фэнтези?</td>
+                  <td>Обожаю</td>
+               </tr>
+               <tr>
+                  <td>Что насчет запретной литературы?</td>
+                  <td>отлично</td>
+               </tr>
+            </table>
+			<br/>
+			<p id="thanks">Спасибо за участие в опросе <a href="knigarnya-about_us.html">нажмите, чтобы вернуться на главную страницу</a></p>
+         </div>
+	</div>
+	<div id = "ad_menu">
+		<div align = "center" style = "font-size: 20px;">Вам может быть интересно:</div>
+		<div><a href="https://nika1ka.github.io/Bodya-secret/shop_main.html">
+			<img src="https://nika1ka.github.io/Bodya-secret/helper.png" width="90" align = "center" style = "padding-right: 15px;">
+			Магазин нижнего белья "Bodya secret"
+		</a></div>
+		<div><a href="https://nika1ka.github.io/aphrodite">
+			<img src="https://nika1ka.github.io/aphrodite/Images/logo.png" width="90" align = "center" style = "padding-right: 15px;">
+			Caлон красоты "Афродита"
+		</a></div>
+	</div>
+</main>
+   <footer>
+      <p align="center">Copyright © 2020-2021 Официальный сайт Книгарня.ua</p>
+      <p align="center">By @dimkniazz все права защищены</p>
+      <div class = "bottom_image" onclick ="show_info()"></div>
+</footer>
+</body>
+</html>

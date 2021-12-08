@@ -1,0 +1,276 @@
+#navigation{
+	background-color: rgba(5, 132, 216, 0.486);
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+}
+#navlogo{
+margin: 0;
+padding: 0;
+width: 35px;
+}
+#navbar ul{
+display: none;
+background-color: white;
+border-radius: 0px 0px 20px 20px;
+position: absolute;
+top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul{
+	font-size: 20px;	
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#navbar {
+background-color: white;
+border-radius: 5px;
+}
+#navbar li {
+float: left;
+position: relative;
+height: 100%;
+padding: 0px 20px;
+}
+#navbar li a {
+display: block;
+padding: 6px;
+width: 100px;
+color: black;
+text-decoration: none;
+text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color: hsla(51, 100%, 50%, 0.795); border-radius: 20px; }
+#navbar ul li:hover { background-color: hsla(51, 100%, 50%, 0.795); }
+#choosed{
+background-color: rgba(236, 29, 29, 0.685); border-radius: 20px;
+pointer-events: none;
+cursor: default;
+}
+#toppicture{
+margin-top: 10px;
+width: 100%;
+}
+body{
+	background-color: #c6ecfc;
+	font-size: 18px;
+}
+footer{
+background-color: rgba(5, 132, 216, 0.486);
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+footer p {
+	margin: 12px;
+}
+#booksmain{
+	margin-bottom: 85px;
+}
+#booksmain2{
+	display: flex;
+	justify-content: center;
+
+}
+#booksmain div{
+	margin: 20px;
+}
+#bookmain{
+	margin-bottom:450px;
+}
+#pre_read_container{
+	display:flex;
+	justify-content: center;
+}
+#pre_read{
+	width: 450px;
+	height:200px;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	padding: 5px;
+	overflow: auto;
+	display: none;
+}
+#bookabout img{
+	float: left;
+	margin: 7px 7px 7px 0;
+}
+#janreabout{
+margin-bottom:70px;
+padding: 20px;
+}
+#logmain{
+	display: flex;
+}
+#log{
+	position: absolute;
+	left: 40%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#mainmain{
+	display:flex;
+	justify-content: center;
+}
+#info h3{
+	text-align:center;
+}
+#info a{
+	text-decoration: none;
+	color: green;
+}
+
+
+.undertext{
+	font-size:120%;
+	padding-left: 8px;
+}
+#logwarnings{
+	width: 39%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-align: right;
+}
+
+
+#logtext1{
+width: 300px;
+height: 40px;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logtext2{
+width: 300px;
+height: 40px;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#logtext3{
+width: 300px;
+height: 40px;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#loglabel{
+	font-size: 18px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#applylogbutton{
+width:147px;
+height: 40px;
+background-color: rgba(16, 165, 16, 0.8);
+font-size: 24px;
+border-radius: 5px;
+}
+#cancellogbutton{
+width:147px;
+height: 40px;
+background-color: rgba(231, 37, 37, 0.8);
+font-size: 24px;
+border-radius: 5px;
+}
+
+#logwarning1{
+	color: black;
+	font-size: 24px;	
+}
+#logwarning2{
+	color: black;
+	font-size: 24px;
+}
+#logwarning3{
+	color: black;
+	font-size: 24px;
+}
+
+#window{
+    width: 350px;
+    height: 100px;
+    margin: 40px auto;
+    background: rgba(32, 173, 32, 0.904);
+    border-radius: 15px;
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+	text-align: center;
+}
+#alertpicture{
+    float: right;
+    margin: 10px 10px 20px 20px;
+}
+
+#question{
+	font-size:120%;
+}
+#opros{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 85px;
+	text-align: center;
+}
+
+#next{
+padding: 20px;
+background-color: green;
+font-size: 170%;
+}
+#result {
+   display: none;
+}
+#thanks{
+	font-size: 120%;
+}
+#thanks a{
+	text-decoration: none;
+	color: green;
+}
+
+
+
+
+td {
+	padding: 5px 10px;
+	font-size: 18px;
+}
+
+.bottom_image {
+	position: fixed;
+	bottom: 12px;
+	right: 20px;
+	content: url("https://static.tildacdn.com/tild3563-3033-4131-b131-616563626663/rupor.png");
+	transition: all .2s;
+	width: 60px;
+}
+
+
+.bottom_image:hover {
+	cursor: pointer;
+    width: 80px;
+	transition: all .2s;
+	bottom: 17px;
+	right: 25px;
+}
+
+#ad_menu {
+	display: none;
+	position: fixed;
+    bottom: 90px;
+    right: 10px;
+	padding: 10px 20px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.815);
+}
